@@ -1,4 +1,4 @@
-# 🎵 Concert Ticket Booking System
+# Concert Ticket Booking System
 
 > A Python desktop application for managing concert ticket bookings with a GUI built using Tkinter.
 
@@ -9,25 +9,25 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 Concert Ticket Booking System is a Python desktop application that allows users to book seats for a concert (EDM Festival), manage existing bookings, and view ticket receipts — all through a simple graphical interface. Booking data is saved persistently to a CSV file.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🪑 **Interactive seat map** — 5 rows × 10 columns with color-coded availability
-- 🎟️ **Ticket booking** with customer name, email, seat selection, and add-ons
-- 💰 **Dynamic price calculator** — updates in real time as seats and add-ons are selected
-- 🧾 **Booking confirmation popup** and printable ticket window
-- 📋 **Manage Bookings tab** — view, search, edit, and delete existing bookings
-- 💾 **CSV persistence** — all bookings saved to and loaded from `concert_bookings.csv`
-- 🔑 **Unique booking ID** generation using random 6-digit numbers
+- **Interactive seat map** — 5 rows × 10 columns with color-coded availability
+- **Ticket booking** with customer name, email, seat selection, and add-ons
+- **Dynamic price calculator** — updates in real time as seats and add-ons are selected
+- **Booking confirmation popup** and printable ticket window
+- **Manage Bookings tab** — view, search, edit, and delete existing bookings
+- **CSV persistence** — all bookings saved to and loaded from `concert_bookings.csv`
+- **Unique booking ID** generation using random 6-digit numbers
 
 ---
 
-## 🖥️ Application Preview
+## Application Preview
 
 ### Tab 1 — Booking
 - A seat map showing available (blue), selected (yellow), and booked (red) seats
@@ -40,7 +40,7 @@ Concert Ticket Booking System is a Python desktop application that allows users 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 concert-ticket-booking/
@@ -50,7 +50,7 @@ concert-ticket-booking/
 
 ---
 
-## 🪑 Seat Map & Pricing
+## Seat Map & Pricing
 
 The venue has **5 rows (A–E)** and **10 columns (1–10)**, with pricing based on the row:
 
@@ -69,7 +69,7 @@ The venue has **5 rows (A–E)** and **10 columns (1–10)**, with pricing based
 
 ---
 
-## 🛍️ Add-ons
+## Add-ons
 
 | Add-on        | Price (THB) |
 |---------------|-------------|
@@ -80,7 +80,7 @@ The venue has **5 rows (A–E)** and **10 columns (1–10)**, with pricing based
 
 ---
 
-## 💳 Payment Methods
+## Payment Methods
 
 - Cash
 - Credit Card
@@ -88,7 +88,7 @@ The venue has **5 rows (A–E)** and **10 columns (1–10)**, with pricing based
 
 ---
 
-## 🗄️ CSV Data Format
+## CSV Data Format
 
 Bookings are stored in `concert_bookings.csv` with the following columns:
 
@@ -109,7 +109,7 @@ Bookings are stored in `concert_bookings.csv` with the following columns:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Python **3.x** installed
@@ -121,14 +121,14 @@ Bookings are stored in `concert_bookings.csv` with the following columns:
 python concert_ticket_booking.py
 ```
 
-> ⚠️ **Important:** Before running, update the `data_file` path in the code to match your local directory:
+> **Important:** Before running, update the `data_file` path in the code to match your local directory:
 > ```python
 > self.data_file = r"C:\your\path\to\concert_bookings.csv"
 > ```
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 1. **Launch** the application — the seat map loads with any previously booked seats marked red
 2. **Click a seat** on the map to select it (turns yellow); click again to deselect
@@ -141,7 +141,7 @@ python concert_ticket_booking.py
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - The `data_file` path is **hardcoded** — must be manually updated per machine
 - Concert name (`EDM Festival`) and time (`6 PM to 3 AM`) are fixed/read-only
@@ -151,18 +151,18 @@ python concert_ticket_booking.py
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- [ ] Make the data file path dynamic (relative path or file picker)
-- [ ] Support multiple concerts and event dates
-- [ ] Add email format validation
-- [ ] Export booking report as PDF
-- [ ] Add payment status filter in the Manage Bookings tab
-- [ ] Add a seat legend/key to the UI
+-  Make the data file path dynamic (relative path or file picker)
+-  Support multiple concerts and event dates
+-  Add email format validation
+-  Export booking report as PDF
+-  Add payment status filter in the Manage Bookings tab
+-  Add a seat legend/key to the UI
 
 ---
 
-## 👤 Author
+## Author
 
 Developed as a Python GUI coursework/demo project using **Tkinter** and **CSV** for data persistence.
 Built at **Rangsit University — DIT102 Final Project**.
