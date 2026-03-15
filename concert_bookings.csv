@@ -1,0 +1,4 @@
+booking_id,seat_no,customer_name,email,concert_date,concert_time,seat_type,price,booking_date,addons,payment_method,payment
+566308,"E7, E8",Julian,julian@gmail.com,6 PM - 3 AM,EDM Festival,Regular,10000 THB,2025-05-05,Exclusive Pack,Cash,Pending
+894334,A4,Ben Ben,benben@gmail.com,6 PM,3 AM - EDM Festival,Premium,14650 THB,2025-05-05,"Food, Drink, Hoodie, Exclusive Pack",Credit Card,Completed
+956920,D3,Jamesss,jame@gmail.com,6 PM to 3 AM,EDM Festival,Regular,4400 THB,2026-03-15,Food,Credit Card,Pending
